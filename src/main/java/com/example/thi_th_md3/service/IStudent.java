@@ -7,11 +7,11 @@ import java.util.List;
 public interface IStudent {
     public List<Student> findAll();
 
-    public List<Student> findByName();
+    public Student findById(int id);
 
     public void add(Student student);
 
-    public void edit(int id, Student student);
+    public boolean edit(Student student);
 
-    public void delete(Student student);
+    public boolean delete(int id);
 }

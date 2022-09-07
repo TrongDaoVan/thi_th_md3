@@ -24,6 +24,9 @@ public class Student {
         this.classroom = classroom;
     }
 
+    public Student(int idd, String name, String dateOfBirth, String address, String phoneNumber, String email, String classroom) {
+    }
+
     public int getId() {
         return id;
     }
